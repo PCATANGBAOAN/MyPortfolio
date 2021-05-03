@@ -24,7 +24,7 @@ nav{
 .nav-bg {
     background-color: var(--prim-dark) !important;
 }
- font-size:1.5rem !important;
+
 
 /***********************MENU LINKS**********************************/
 
@@ -128,7 +128,7 @@ nav ul li {
     background-color:var(--prim-dark-orange);
     text-decoration: none;
     color:var(--primary-white);
-    transition:  ease-in-out;
+    transition: .1 ease-in-out;
 }
 .fullstack{
     color:var(--primary-white);
