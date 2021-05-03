@@ -4,6 +4,7 @@ import Navbar from './Component/Navbar'
 import Header from './Component/Header'
 import About from './Component/About'
 import Particles from 'react-particles-js'
+import Projects from './Component/Projects'
 
 function App() {
     return (
@@ -43,6 +44,7 @@ function App() {
         <Navbar/>
         <Header/>
         <About/>
+        {/* <Projects/> */}
         </>
     );
 }
