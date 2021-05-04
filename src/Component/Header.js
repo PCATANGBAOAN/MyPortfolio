@@ -4,9 +4,9 @@ import Typed from "react-typed";
 
 const Header = () => {
     return (
-        <div className="header-wrapper">
+        <div className="header-wrapper" id="Home">
             <div className="main-info">
-                <h1>PAUL TANGBAOAN | <span className="fullstack">FULLSTACK ENGINEER</span></h1>
+                <h1>PAUL TANGBAOAN | <span className="fullstack">FULL STACK ENGINEER</span></h1>
                 <Typed
                 className="typed-text"
                 strings={["Web Development", ".NET Savy", "Web API", "React.JS", "C# Warrior", "Stackoverflow Student"]}

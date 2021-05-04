@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import Profile from "../test.jpg";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
-
+import LazyLoad from "react-lazyload";
 
 const About = () => {
     return (
@@ -15,8 +15,12 @@ const About = () => {
         <Container>
           <Row className="align-items-center">
             <Col xs={12} md={6}>
-              <Row className="justify-content-center mb-2 mr-2 ">
-                <Image className="profile" alt="profile" src={Profile}thumbnail />
+        
+              <Row className="justify-content-center mb-2 mr-2 ">               
+              
+              <LazyLoad height={200} debounce={300}>
+              <Image className="profile" alt="profile" src={Profile}/>
+              </LazyLoad>
               </Row>
             </Col>
             <Col xs={12} md={6}>

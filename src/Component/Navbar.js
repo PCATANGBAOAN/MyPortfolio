@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../paullogo4.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link, animateScroll as scroll, animateScroll } from 'react-scroll';
 
 const Navbar = () => {
     return (
@@ -15,20 +16,61 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
-                <a className="nav-link" href="/#">Home</a>
+              <li className="nav-item">
+             
+              <Link
+                activeClass="active"
+                to="Home"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >Home
+              </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">About</a>
+              <Link
+                activeClass="active"
+                to="About"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >About
+              </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">Services</a>
+              <Link
+                activeClass="active"
+                to="Project"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >Timeline
+              </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">how work</a>
+              <Link
+                activeClass="active"
+                to="howwork"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >How Work
+              </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">portfolio</a>
+              <Link
+                activeClass="active"
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >Portfolio
+              </Link>
               </li>
             </ul>
           </div>
