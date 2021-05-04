@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../paullogo4.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { Link, animateScroll as scroll, animateScroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     return (
