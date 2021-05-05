@@ -276,5 +276,8 @@ color:var(--primary-white);
         height:10rem; 
         border-radius: 10rem; 
       }
+      .coverflow__text__39hqd{
+            font-size:0.2rem !important;
+      }
  
 }
