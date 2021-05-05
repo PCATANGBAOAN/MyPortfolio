@@ -20,20 +20,20 @@ function Carousel() {
                 enableScroll={true}
             >
                 <img src={Lees}
-                    // alt='Lee System Venture'
+                    alt=''
                     style={{ display: 'block', width: '100%' }}
                     Data-action="/" />
                 <img src={CBC}
-                    // alt='China Bank Online'
+                    alt=''
                     data-action="/" />
                 <img src={ATO}
-                    // alt='Australian Government Taxation - Single Touch Payroll'
+                    alt=''
                     data-action="/" />
                 <img src={CBS}
-                    // alt='China Bank Savings Online'
+                    alt=''
                     data-action="/" />
                 <img src={INSPIRETEC}
-                    // alt='Inspiretec'
+                    alt=''
                     data-action="/" />
             </CoverFlow>
         </div>
