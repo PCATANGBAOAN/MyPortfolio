@@ -69,4 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # MyPortfolio
-# iamyourpaul
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8b226a98-c570-4fa3-bbc4-8059aedc8805/deploy-status)](https://app.netlify.com/sites/paultangbaoan/deploys)
