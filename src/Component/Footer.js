@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import Contact from './Contact'
-import { Divider } from 'antd';
+
 
 function Footer() {
     return (

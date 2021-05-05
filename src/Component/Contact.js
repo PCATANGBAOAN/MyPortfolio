@@ -1,6 +1,6 @@
 import React from "react";
 import emailjs from 'emailjs-com';
-import { Form, FormLabel } from 'react-bootstrap'
+
 
 
 export default function Contact() {
