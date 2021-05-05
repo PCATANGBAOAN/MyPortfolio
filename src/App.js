@@ -5,6 +5,7 @@ import Header from './Component/Header'
 import About from './Component/About'
 import Particles from 'react-particles-js'
 import Project from './Component/Project'
+import Footer from './Component/Footer'
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
       <Header />
       <About />
       <Project/>
+      <Footer/>
     </>
   );
 }

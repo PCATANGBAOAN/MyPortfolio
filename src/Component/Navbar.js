@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../paullogo4.png';
+import logo from '../assets/img/icons/paullogo4.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
@@ -56,20 +56,20 @@ const Navbar = () => {
                 to="howwork"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-120}
                 duration={500}
-              >How Work
+              >Projects
               </Link>
               </li>
               <li className="nav-item">
               <Link
                 activeClass="active"
-                to="portfolio"
+                to="Footer"
                 spy={true}
                 smooth={true}
                 offset={0}
                 duration={500}
-              >Portfolio
+              >LET'S TALK
               </Link>
               </li>
             </ul>
