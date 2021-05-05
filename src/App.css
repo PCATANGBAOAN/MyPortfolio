@@ -224,6 +224,13 @@ z-index: 1;
 .text-xs-center{
 color:var(--primary-white);
 }
+.submitbtn{
+    background: none !important;
+    border: 1px solid var(--prim-dark-orange) !important;
+}
+.submitbtn:hover{
+    background: var(--prim-dark-orange) !important;
+}
 
  /***********************SMALL DEVICE SUPPORT****************************/
   @media(max-width:768px){
