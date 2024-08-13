@@ -24,9 +24,8 @@ const About = () => {
             <Col xs={12} md={6}>
               <h4 className="pb-3">Full Stack Software Engineer</h4>
               <Row className="my-details rounded">
-
                 Hi there! I am <strong>&nbsp;Paul Christian Armando Tangbaoan</strong> A passionate, .Net Enthusiast and a Google Master,
-                born and brought up in Philippines. I am a Full Stack Software Engineer with React.js, .NET Core C#, Express.js, Node.js, and MSSQL as my tech stack.
+                born and brought up in PH. I am a Full Stack Software Engineer with React.js, .NET Core C#, Express.js, Node.js, and MSSQL as my tech stack.
                 In 2014, I successfully completed my college with specialization in <strong>'Information of Technology'</strong>.
                 <br />
                 Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
