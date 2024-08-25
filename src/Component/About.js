@@ -4,6 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 // import "./about.styles.css";
 import Profile from "../assets/img/profile/profile.jpg";
+import Profile2 from "../assets/img/profile/profile2.jpg";
+import Profile3 from "../assets/img/profile/profile3.jpg";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import LazyLoad from "react-lazyload";
@@ -17,22 +19,16 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2 ">
                 <LazyLoad height={200} debounce={300}>
-                  <Image className="profile" alt="profile" src={Profile} />
+                  <Image className="profile" alt="profile" src={Profile3} />
                 </LazyLoad>
               </Row>
             </Col>
             <Col xs={12} md={6}>
               <h4 className="pb-3">Full Stack Software Engineer</h4>
               <Row className="my-details rounded">
-                Hi there! I am <strong>&nbsp;Paul Christian Armando Tangbaoan</strong> A passionate, .Net Enthusiast and a Google Master,
-                born and brought up in Philippines. I am a Full Stack Software Engineer with React.js, .NET Core C#, Express.js, Node.js, and MSSQL as my tech stack.
-                In 2014, I successfully completed my college with specialization in <strong>'Information of Technology'</strong>.
-                <br />
-                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
-                <br />
-                Along with that, I also help people as a sole developer and lead on their journey of becoming a professional programmer.
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-                <br /> <br />
+                Hello! I’m Paul, a dedicated .NET enthusiast and a self-proclaimed Google master from the Philippines. As a Full Stack Software Engineer, I work with a tech stack that includes React.js, .NET Core, C#, Express.js, Node.js, and MSSQL. I graduated in 2014 with a degree in Information Technology.
+                My focus when working with clients is to deliver an exceptional experience by providing top-notch quality and service. Additionally, I mentor aspiring developers, guiding them on their path to becoming professional programmers.
+                I’m passionate about exploring new technologies, understanding the problems they address, and discovering how I can leverage them to create better and more scalable products.
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
