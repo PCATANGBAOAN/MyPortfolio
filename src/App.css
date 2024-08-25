@@ -71,7 +71,8 @@ nav ul li {
 
 .header-wrapper {
     position: relative;
-    background: url(assets/img/header/headerbanner.jpg) no-repeat;
+    /* background: url(assets/img/header/headerbanner.jpg) no-repeat; */
+    background: url(assets/img/profile/aboutbgf.jpg) no-repeat; 
     background-size: cover;
     height: 100vh;
     background-position: center;
