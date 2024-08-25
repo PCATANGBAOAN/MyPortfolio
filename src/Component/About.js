@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 // import "./about.styles.css";
 import Profile from "../assets/img/profile/profile.jpg";
 import Profile2 from "../assets/img/profile/profile2.jpg";
-import Profile3 from "../assets/img/profile/profile3.jpg";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import LazyLoad from "react-lazyload";
