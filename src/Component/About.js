@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 // import "./about.styles.css";
-import Profile from "../assets/img/profile/profile.jpg";
 import Profile2 from "../assets/img/profile/profile2.jpg";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
@@ -18,7 +17,7 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2 ">
                 <LazyLoad height={200} debounce={300}>
-                  <Image className="profile" alt="profile" src={Profile3} />
+                  <Image className="profile" alt="profile" src={Profile2} />
                 </LazyLoad>
               </Row>
             </Col>
