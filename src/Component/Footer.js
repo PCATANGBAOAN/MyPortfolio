@@ -35,7 +35,7 @@ function Footer() {
                     </div>
                     <div className="footer-bottom">
                         <p className="text-xs-center">
-                            &copy;{new Date().getFullYear()} Copyright | Paul Christian Armando Tangbaoan
+                            &copy;{new Date().getFullYear()} Copyright | @DevPaul
                         </p>
                     </div>
                 </div>
