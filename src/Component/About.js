@@ -24,7 +24,7 @@ const About = () => {
             <Col xs={12} md={6}>
               <h4 className="pb-3">Full Stack Software Engineer</h4>
               <Row className="my-details rounded">
-                Hello! I’m Paul, property of charm soriano also a dedicated .NET enthusiast and a self-proclaimed Google master from the Philippines. As a Full Stack Software Engineer, I work with a tech stack that includes React.js, .NET Core, C#, Express.js, Node.js, and MSSQL. I graduated in 2014 with a degree in Information Technology.
+                Hello! I’m Paul, a dedicated .NET enthusiast and a self-proclaimed Google master from the Philippines. As a Full Stack Software Engineer, I work with a tech stack that includes React.js, .NET Core, C#, Express.js, Node.js, and MSSQL. I graduated in 2014 with a degree in Information Technology.
                 My focus when working with clients is to deliver an exceptional experience by providing top-notch quality and service. Additionally, I mentor aspiring developers, guiding them on their path to becoming professional programmers.
                 I’m passionate about exploring new technologies, understanding the problems they address, and discovering how I can leverage them to create better and more scalable products.
                 <Col className="d-flex justify-content-center flex-wrap">
